@@ -28,7 +28,7 @@ function Map() {
           position={{ lat: park.Latitude, lng: park.Longitude }}
           onClick = {() => { setSelectedPark(park); }} 
           icon = {{
-            url: "/icon.png",
+            url: "./icon.png",
             scaledSize: new window.google.maps.Size(25, 33),
           }}
         />
