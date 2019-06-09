@@ -1,4 +1,5 @@
-https://CCCCChloe.github.io/Texas_state_park_map/
+The project is hosted on Github pages: https://CCCCChloe.github.io/Texas_state_park_map/
+You can open the link directly and play with it!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
