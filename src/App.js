@@ -28,7 +28,7 @@ function Map() {
           position={{ lat: park.Latitude, lng: park.Longitude }}
           onClick = {() => { setSelectedPark(park); }} 
           icon = {{
-            url: "/icon.png",
+            url: "./icon.png",
             scaledSize: new window.google.maps.Size(25, 33),
           }}
         />
@@ -44,7 +44,7 @@ function Map() {
             <div>
               <img 
                 alt='address icon'
-                src='/addressIcon.png' 
+                src='./addressIcon.png' 
                 style={{ height: '24px', display: 'inline', position: 'relative', top: '5px' }} 
               />
               <p 
@@ -60,7 +60,7 @@ function Map() {
             <div >
               <img 
                 alt='time icon'
-                src='/timeIcon.png' 
+                src='./timeIcon.png' 
                 style={{ height: '20px', display: 'inline', margin: '2px 2px', position: 'relative', top: '15px' }} 
               />
               <table style={{marginLeft: '31px', position: 'relative', top: '-10px'}}>
